@@ -18,7 +18,7 @@ type Place struct {
 // FetchPlaces queries an API for places of interest
 func FetchPlaces(location string, days int) []Place {
 	// Replace with a real API URL
-	apiURL := fmt.Sprintf("https://api.example.com/places?location=%s&days=%d", location, days)
+	apiURL := fmt.Sprintf("https://api.opentripmap.com/0.1/en/places?location=%s&days=%d", location, days)
 
 	// Make the API request
 	resp, err := http.Get(apiURL)
