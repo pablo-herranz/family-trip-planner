@@ -1,3 +1,3 @@
-module github.com/pablo-herranz/family-trip-planner
+module github.com/pablo-herrranz/family-trip-planner
 
 go 1.23.3
